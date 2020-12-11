@@ -1,0 +1,19 @@
+.Menu {
+  display: flex;
+  flex-direction: column;
+  color: #282C34;
+  height: 100%;
+  width: 30%;
+  justify-content: center;
+  font-size: 1em;
+
+  background-color: #9195de9a;
+}
+
+#avatar {
+  border: 1rem solid #b668939f;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
