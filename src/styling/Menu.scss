@@ -1,19 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .Menu {
   display: flex;
   flex-direction: column;
-  color: #282C34;
-  height: 100%;
-  width: 30%;
-  justify-content: center;
-  font-size: 1em;
 
-  background-color: #9195de9a;
+  align-items: center;
+  text-align: center;
+
+  height: 100%;
+  width: 20%;
+
+  background-color: #488466d8;
+  font-size: 1em;
+  color: #282C34;
+}
+
+.Link {
+  color: #d4e2dbaf;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+
+  margin: 0.5em;
+}
+
+a:hover {
+  color: #F5F5F5;
+}
+
+a:active {
+  color: #F5F5F5;
 }
 
 #avatar {
-  border: 1rem solid #b668939f;
+  border: 0.7rem solid #d4e2db6c;
   border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
+  margin-top: 5rem;
   margin-bottom: 1rem;
 }

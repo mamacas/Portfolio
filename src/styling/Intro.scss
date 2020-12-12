@@ -1,12 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .Intro {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
   height: 100%;
-  width: 70%;
+  width: 80%;
   background-color: #F5F5F5;
-  
-  font-size: 1em;
-  color: #282C34;
+}
+
+#name {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 5em;
+  margin-left: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 0rem;
+}
+
+#surname {
+  color: #488466d8;
+}
+
+#contact-list {
+  font-family: 'Roboto', sans-serif;
+  width: 50%;
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+li {
+  font-weight: bold;
+  font-size: 1.2em;
+  display: inline;
+  white-space: nowrap;
+  margin: 0.1em;
+  color: #3e4451d8;
+}
+
+#phone:after, #location:after {
+  content: " \00b7";
+}
+
+#email {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: #488466d8;
+}
+#email:hover {
+  text-decoration: underline;
 }
