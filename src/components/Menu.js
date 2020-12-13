@@ -14,6 +14,7 @@ function Menu() {
       <a href="/" className="Link">SKILLS</a>
       <a href="/" className="Link">EDUCATION</a>
       <a href="/" className="Link">EXPERIENCE</a>
+      <a href="/" className="Link">INTERESTS</a>
     </header>
   )
 }

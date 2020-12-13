@@ -2,19 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.Intro {
-  display: flex;
-  flex-direction: column;
-
-  height: 100%;
-  width: 80%;
-  background-color: #F5F5F5;
-}
+// min 1000px screen width
 
 #name {
   font-family: 'Berkshire Swash', cursive;
   font-size: 5em;
-  margin-left: 3rem;
+  // margin-left: 3rem;
   margin-top: 7rem;
   margin-bottom: 0rem;
 }
@@ -26,7 +19,7 @@
 #contact-list {
   font-family: 'Roboto', sans-serif;
   width: 50%;
-  margin-left: 0.1rem;
+  margin-left: -3rem;
   margin-top: 0.1rem;
 }
 

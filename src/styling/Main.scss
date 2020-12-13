@@ -8,3 +8,29 @@
   justify-content: center;
   font-size: 1em;
 }
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  text-align: center;
+
+  height: 100%;
+  width: 20%;
+
+  background-color: #488466d8;
+  font-size: 1em;
+  color: #282C34;
+}
+
+.Tabs {
+  margin-left: 3rem;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 80%;
+  background-color: #F5F5F5;
+}

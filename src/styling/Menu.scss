@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.Menu {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  text-align: center;
-
-  height: 100%;
-  width: 20%;
-
-  background-color: #488466d8;
-  font-size: 1em;
-  color: #282C34;
-}
-
 .Link {
   color: #d4e2dbaf;
   font-family: 'Roboto', sans-serif;
@@ -25,11 +10,11 @@
   margin: 0.5em;
 }
 
-a:hover {
-  color: #F5F5F5;
+.Link:hover {
+  color: #d4e2dbd3;
 }
 
-a:active {
+.Link:active {
   color: #F5F5F5;
 }
 
