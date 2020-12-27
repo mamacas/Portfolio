@@ -1,6 +1,6 @@
 
 let initialState = {
-  tabs: [
+  sections: [
     { name: 'About' }, 
     { name: 'Projects' },
     { name: 'Skills' },
